@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		890659B81B7CDBED00AC8059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 890659B71B7CDBED00AC8059 /* main.m */; };
 		890659CF1B7CDD0500AC8059 /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 890659CA1B7CDD0500AC8059 /* GCD.m */; };
 		890659D51B7CDE4900AC8059 /* Prime.m in Sources */ = {isa = PBXBuildFile; fileRef = 890659D41B7CDE4900AC8059 /* Prime.m */; };
 		8922F3031B81908700BA680A /* DoorWithLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8922F3021B81908700BA680A /* DoorWithLock.m */; };
@@ -17,6 +16,7 @@
 		89B8D3881B81FD6500226A18 /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B8D3871B81FD6500226A18 /* Sort.m */; };
 		89C8511F1B80294400CBD361 /* NSArray+Print.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8511E1B80294400CBD361 /* NSArray+Print.m */; };
 		89C851221B80367A00CBD361 /* Sqrt.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C851211B80367A00CBD361 /* Sqrt.m */; };
+		89D9E95F1B86D23E0024B25A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E95E1B86D23E0024B25A /* main.m */; };
 		89DDCB0A1B7ED98800F2FC68 /* NSArray+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DDCB091B7ED98800F2FC68 /* NSArray+Init.m */; };
 		89FC4CA31B7CE24D0096337B /* Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FC4CA21B7CE24D0096337B /* Help.m */; };
 		89FC4CAD1B7CE8B50096337B /* NSMutableArray+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FC4CAC1B7CE8B50096337B /* NSMutableArray+Init.m */; };
@@ -36,10 +36,8 @@
 
 /* Begin PBXFileReference section */
 		890659B41B7CDBED00AC8059 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		890659B71B7CDBED00AC8059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		890659C91B7CDD0500AC8059 /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCD.h; path = GCD/GCD.h; sourceTree = "<group>"; };
 		890659CA1B7CDD0500AC8059 /* GCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCD.m; path = GCD/GCD.m; sourceTree = "<group>"; };
-		890659CD1B7CDD0500AC8059 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Helper.h; path = GCD/Helper.h; sourceTree = "<group>"; };
 		890659D31B7CDE4900AC8059 /* Prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prime.h; path = Sieve/Prime.h; sourceTree = "<group>"; };
 		890659D41B7CDE4900AC8059 /* Prime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Prime.m; path = Sieve/Prime.m; sourceTree = "<group>"; };
 		8922F3011B81908700BA680A /* DoorWithLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorWithLock.h; sourceTree = "<group>"; };
@@ -56,7 +54,9 @@
 		89C8511E1B80294400CBD361 /* NSArray+Print.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Print.m"; sourceTree = "<group>"; };
 		89C851201B80367A00CBD361 /* Sqrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sqrt.h; sourceTree = "<group>"; };
 		89C851211B80367A00CBD361 /* Sqrt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sqrt.m; sourceTree = "<group>"; };
-		89D9E95C1B86CD8D0024B25A /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		89D9E95D1B86D1CC0024B25A /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Helper.h; path = Helper/Helper.h; sourceTree = "<group>"; };
+		89D9E95E1B86D23E0024B25A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Main/main.m; sourceTree = SOURCE_ROOT; };
+		89D9E9601B86D2490024B25A /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = Main/Header.h; sourceTree = SOURCE_ROOT; };
 		89DDCB081B7ED98800F2FC68 /* NSArray+Init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Init.h"; sourceTree = "<group>"; };
 		89DDCB091B7ED98800F2FC68 /* NSArray+Init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Init.m"; sourceTree = "<group>"; };
 		89FC4CA11B7CE24D0096337B /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Help.h; path = Helper/Help.h; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 		890659B61B7CDBED00AC8059 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				890659B71B7CDBED00AC8059 /* main.m */,
-				89D9E95C1B86CD8D0024B25A /* Header.h */,
+				89D9E9601B86D2490024B25A /* Header.h */,
+				89D9E95E1B86D23E0024B25A /* main.m */,
 			);
 			name = Main;
 			path = Algorithm;
@@ -115,7 +115,7 @@
 		890659D61B7CE1C600AC8059 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				890659CD1B7CDD0500AC8059 /* Helper.h */,
+				89D9E95D1B86D1CC0024B25A /* Helper.h */,
 				89FC4CA11B7CE24D0096337B /* Help.h */,
 				89FC4CA21B7CE24D0096337B /* Help.m */,
 			);
@@ -263,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D9E95F1B86D23E0024B25A /* main.m in Sources */,
 				89C8511F1B80294400CBD361 /* NSArray+Print.m in Sources */,
 				89DDCB0A1B7ED98800F2FC68 /* NSArray+Init.m in Sources */,
 				89A283111B82E40500ADFDF8 /* MaxSubSequenceSum.m in Sources */,
@@ -273,7 +274,6 @@
 				890659D51B7CDE4900AC8059 /* Prime.m in Sources */,
 				89FC4CA31B7CE24D0096337B /* Help.m in Sources */,
 				89B8D3831B81BE2100226A18 /* OrderStatistic.m in Sources */,
-				890659B81B7CDBED00AC8059 /* main.m in Sources */,
 				89FC4CAD1B7CE8B50096337B /* NSMutableArray+Init.m in Sources */,
 				89A283091B82CD8800ADFDF8 /* MinDistance.m in Sources */,
 			);
