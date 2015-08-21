@@ -10,4 +10,35 @@
 
 @implementation Help
 
+//如果一个数是完全平方数，那么该数可以表示为 number = n^2 = 1 + 3 + 5 + ... + 2n-1
++(BOOL)isPerfectSqure:(NSInteger) number
+{
+    for(int i = 1 ; number > 0; i += 2)
+        number -= i;
+    return 0 == number;
+}
+//求一个数组的元素个数
++(NSInteger)lengthOfArray:(NSInteger *)array
+{
+    NSInteger count = 0;
+    NSInteger *p = array;
+    while (p != NULL) {
+        p++;
+        count++;
+    }
+    return count;
+    
+}
+//三个数中的最大值
++(NSInteger) maxOfFirst:(NSInteger)A second:(NSInteger)B third:(NSInteger)C
+{
+    return A > B ? A > C ? A : C : B > C ? B : C;
+}
+//三个数中的最小值
++(NSInteger)minOfFirst:(NSInteger)A second:(NSInteger)B third:(NSInteger)C
+{
+    return A < B ? A < C ? A : C : B < C ? B : C;
+}
+
 @end
+

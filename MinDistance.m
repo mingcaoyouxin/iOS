@@ -10,4 +10,8 @@
 
 @implementation MinDistance
 
+-(NSInteger)minDistanceOfArray:(NSInteger *)array withBegin:(NSInteger)p withEnd:(NSInteger)r
+{
+    return 0;
+}
 @end

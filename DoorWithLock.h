@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface DoorWithLock : NSObject
-
+//带锁的门
++(NSArray *)doorsWithLockWithDoorNumber:(NSInteger) doorNumber;
 @end

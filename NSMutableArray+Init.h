@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface NSMutableArray (Init)
+-(NSMutableArray *)initWithCapacity:(NSInteger)capacity withInitNumber:(NSInteger)initNumber isSequent:(BOOL)isSequent;
 
 @end

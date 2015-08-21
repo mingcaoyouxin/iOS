@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface MaxSubSequenceSum : NSObject
-
+//求最大连续子序列和
+-(NSInteger)maxSubsequenceSum:(const NSInteger[])A withLength:(NSInteger) N;
 @end

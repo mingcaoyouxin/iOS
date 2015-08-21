@@ -10,4 +10,21 @@
 
 @implementation NSMutableArray (Init)
 
+-(NSMutableArray *)initWithCapacity:(NSInteger)capacity withInitNumber:(NSInteger)initNumber isSequent:(BOOL)isSequent
+{
+    self = [super init];
+    if (!self) {
+        return NULL;
+    }
+    for (NSInteger i = 0; i < capacity; i++) {
+        if (isSequent) {
+            [self addObject:[NSNumber numberWithInteger:i]];
+        }else{
+            [self addObject:[NSNumber numberWithInteger:initNumber]];
+        }
+    }
+    return self;
+}
+
+
 @end

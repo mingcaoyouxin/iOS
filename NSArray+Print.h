@@ -10,4 +10,5 @@
 
 @interface NSArray (Print)
 
+-(void)printArrayOfInteger:(NSArray *)array;
 @end

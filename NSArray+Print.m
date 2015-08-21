@@ -10,4 +10,10 @@
 
 @implementation NSArray (Print)
 
+-(void)printArrayOfInteger:(NSArray *)array
+{
+    for (NSNumber *number  in array) {
+        NSLog(@"%ld",number.integerValue);
+    }
+}
 @end

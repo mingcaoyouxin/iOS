@@ -10,4 +10,6 @@
 
 @interface MinDistance : NSObject
 
+//求数值数组中大小最接近的两个元素的差
+-(NSInteger)minDistanceOfArray:(NSInteger *)array withBegin:(NSInteger)p withEnd:(NSInteger)r;
 @end
