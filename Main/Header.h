@@ -14,8 +14,6 @@
 #import "Sort.h"
 #import "MaxSubSequenceSum.h"
 
-
-
 #ifndef Algorithm_Header_h
 #define Algorithm_Header_h
 
