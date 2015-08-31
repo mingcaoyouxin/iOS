@@ -7,6 +7,7 @@
 //
 
 #import "Sort.h"
+#import "BinaryHeap.h"
 
 @implementation Sort
 
@@ -66,4 +67,25 @@
     array[r] = temp;
     return [self partitionOfArray:array withBegin:p withEnd:r];
 }
+
+
+#pragma mark - 堆排序
+-(Heap)heapSortOfArray:(NSInteger *)array withLength:(NSInteger)size
+{
+    BinaryHeap *binaryHeap = [[BinaryHeap alloc] init];
+    //首先简历最大堆
+    Heap heap =[binaryHeap buildMaxHeap:array withSize:size];
+    for(NSInteger i = size; i >= 2; i--){
+        //将堆的顶点与i位置的元素交换
+        NSInteger temp = heap->elements[1];
+        heap->elements[1] = heap->elements[i];
+        heap->elements[i] = temp;
+        heap->size --;
+        //保持堆顶点的最大堆性质
+        [binaryHeap maxHeapify:heap inPosition:1];
+    }
+    return heap;
+    
+}
+
 @end

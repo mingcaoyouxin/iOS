@@ -32,4 +32,11 @@ typedef struct TreeNode *Position;
 //删除元素
 -(SearchTree)deleteElement:(ElementType)element inTree:(SearchTree)tree;
 
+//中序遍历遍历元素
+-(void)printTree:(SearchTree)tree;
+
+//查找中序遍历中元素的后继
+-(Position)successorOfElement:(ElementType)element inTree:(SearchTree)tree;
+
+
 @end

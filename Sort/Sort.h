@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Heap.h"
+#import "Heap.h"
+typedef struct HeapStruct *Heap;
 
 @interface Sort : NSObject
 
@@ -21,5 +24,9 @@
 -(NSInteger *)randomizedQuickSortOfArray:(NSInteger *)array withBegin:(NSInteger)p withEnd:(NSInteger)r;
 
 -(NSInteger)randomizedPartitionOfArray:(NSInteger *)array withBegin:(NSInteger)p withEnd:(NSInteger)r;
+
+#pragma mark - 堆排序
+/*堆排序是一种原地（in place）排序算法：在任何时候，数组中只有常数个元素存储在输入数组以外*/
+-(Heap)heapSortOfArray:(NSInteger *)array withLength:(NSInteger)size;
 
 @end

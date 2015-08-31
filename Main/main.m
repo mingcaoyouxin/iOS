@@ -76,11 +76,43 @@ int main(int argc, const char * argv[]) {
             printf("%ld " ,pResult[i]);
         }
         printf("\n");
+
+        NSInteger heaps[]={0,-1,2,11,3,23,1,87,1,23,46,1,44,11};
+        Heap heapResult = [sort heapSortOfArray:heaps withLength:13];
+        for (int i = 1; i <= 13 ; i++) {
+            printf("%ld " ,heapResult->elements[i]);
+        }
+        printf("\n");
+
+        
         MaxSubSequenceSum *subSequence = [[MaxSubSequenceSum alloc] init];
         static NSInteger A[] = TestArrayE;
         
         NSLog(@"Maxsum = %ld\n",[subSequence maxSubsequenceSum:A withLength:sizeof(A)/sizeof(A[0])]);
-
+        
+        NSInteger treeArray[]={15,6,3,4,2,7,13,9,18,20,17};
+        NSInteger length = sizeof(treeArray)/sizeof(treeArray[0]);
+        BinarySearchTree *binary = [[BinarySearchTree alloc] init];
+        SearchTree searchTree = NULL;
+        for (NSInteger i = 0; i < length; i++) {
+            searchTree = [binary insertElement:treeArray[i] inTree:searchTree];
+        }
+        [binary printTree:searchTree];
+        printf("\n");
+        struct TreeNode *node = [binary successorOfElement:17 inTree:searchTree];
+        if (node) {
+            NSLog(@"%ld",node->element);
+        }
+        
+        searchTree = [binary deleteElement:15 inTree:searchTree];
+        [binary printTree:searchTree];
+        
+        printf("\n");
+        NSInteger heapArray[] = {-1,4,1,3,2,16,9,10,14,8,7};
+        BinaryHeap *binaryHeap = [[BinaryHeap alloc] init];
+        struct HeapStruct *heap = [binaryHeap buildMaxHeap:heapArray withSize:10];
+        for(int i = 1; i <= 10; i++)
+            NSLog(@"%ld",heap->elements[i]);
     }
     return 0;
 }

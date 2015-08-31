@@ -30,5 +30,6 @@ struct TreeNode{
     ElementType element;
     PtrToNode left;
     PtrToNode right;
+    PtrToNode parent;//指向父节点，有些书籍中并未给出该指针
 };
 #endif

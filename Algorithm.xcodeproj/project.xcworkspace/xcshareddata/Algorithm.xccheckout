@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>8C52DB68-7813-402D-964F-75512E8E26AF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Algorithm</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1BE4A6AB2A6BB42468477B0468C2D80A9FE6BF26</key>
 		<string>https://github.com/mingcaoyouxin/iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Algorithm.xcodeproj/project.xcworkspace</string>
+	<string>Algorithm.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1BE4A6AB2A6BB42468477B0468C2D80A9FE6BF26</key>

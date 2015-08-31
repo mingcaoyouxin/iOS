@@ -13,7 +13,9 @@
 #import "OrderStatistic.h"
 #import "Sort.h"
 #import "MaxSubSequenceSum.h"
-
+#import "BinarySearchTree.h"
+#import "Heap.h"
+#import "BinaryHeap.h"
 #ifndef Algorithm_Header_h
 #define Algorithm_Header_h
 

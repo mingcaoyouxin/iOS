@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89404C441B93EA7800294475 /* MaxSubSequenceSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 89404C3F1B93EA7800294475 /* MaxSubSequenceSum.m */; };
+		89404C451B93EA7800294475 /* MinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 89404C411B93EA7800294475 /* MinDistance.m */; };
+		89404C461B93EA7800294475 /* OrderStatistic.m in Sources */ = {isa = PBXBuildFile; fileRef = 89404C431B93EA7800294475 /* OrderStatistic.m */; };
 		89D9E95F1B86D23E0024B25A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E95E1B86D23E0024B25A /* main.m */; };
-		89D9E9671B86D4060024B25A /* MaxSubSequenceSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E9621B86D4060024B25A /* MaxSubSequenceSum.m */; };
-		89D9E9681B86D4060024B25A /* MinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E9641B86D4060024B25A /* MinDistance.m */; };
-		89D9E9691B86D4060024B25A /* OrderStatistic.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E9661B86D4060024B25A /* OrderStatistic.m */; };
 		89D9E9701B86D4220024B25A /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E96B1B86D4220024B25A /* GCD.m */; };
 		89D9E9711B86D4220024B25A /* Prime.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E96D1B86D4220024B25A /* Prime.m */; };
 		89D9E9721B86D4220024B25A /* Sqrt.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E96F1B86D4220024B25A /* Sqrt.m */; };
@@ -20,6 +20,7 @@
 		89D9E97E1B86D4610024B25A /* NSMutableArray+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E97B1B86D4610024B25A /* NSMutableArray+Init.m */; };
 		89D9E9811B86D4750024B25A /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E9801B86D4750024B25A /* Sort.m */; };
 		89D9E9851B871DFA0024B25A /* BinarySearchTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E9841B871DFA0024B25A /* BinarySearchTree.m */; };
+		89DE7B661B8ABFB200799D3F /* BinaryHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DE7B651B8ABFB200799D3F /* BinaryHeap.m */; };
 		89FC4CA31B7CE24D0096337B /* Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FC4CA21B7CE24D0096337B /* Help.m */; };
 /* End PBXBuildFile section */
 
@@ -37,15 +38,15 @@
 
 /* Begin PBXFileReference section */
 		890659B41B7CDBED00AC8059 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		89404C3E1B93EA7800294475 /* MaxSubSequenceSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaxSubSequenceSum.h; path = LinearList/MaxSubSequenceSum.h; sourceTree = "<group>"; };
+		89404C3F1B93EA7800294475 /* MaxSubSequenceSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaxSubSequenceSum.m; path = LinearList/MaxSubSequenceSum.m; sourceTree = "<group>"; };
+		89404C401B93EA7800294475 /* MinDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinDistance.h; path = LinearList/MinDistance.h; sourceTree = "<group>"; };
+		89404C411B93EA7800294475 /* MinDistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MinDistance.m; path = LinearList/MinDistance.m; sourceTree = "<group>"; };
+		89404C421B93EA7800294475 /* OrderStatistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderStatistic.h; path = LinearList/OrderStatistic.h; sourceTree = "<group>"; };
+		89404C431B93EA7800294475 /* OrderStatistic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderStatistic.m; path = LinearList/OrderStatistic.m; sourceTree = "<group>"; };
 		89D9E95D1B86D1CC0024B25A /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Helper.h; path = Helper/Helper.h; sourceTree = "<group>"; };
 		89D9E95E1B86D23E0024B25A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Main/main.m; sourceTree = SOURCE_ROOT; };
 		89D9E9601B86D2490024B25A /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = Main/Header.h; sourceTree = SOURCE_ROOT; };
-		89D9E9611B86D4060024B25A /* MaxSubSequenceSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaxSubSequenceSum.h; path = Sequence/MaxSubSequenceSum.h; sourceTree = "<group>"; };
-		89D9E9621B86D4060024B25A /* MaxSubSequenceSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaxSubSequenceSum.m; path = Sequence/MaxSubSequenceSum.m; sourceTree = "<group>"; };
-		89D9E9631B86D4060024B25A /* MinDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinDistance.h; path = Sequence/MinDistance.h; sourceTree = "<group>"; };
-		89D9E9641B86D4060024B25A /* MinDistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MinDistance.m; path = Sequence/MinDistance.m; sourceTree = "<group>"; };
-		89D9E9651B86D4060024B25A /* OrderStatistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderStatistic.h; path = Sequence/OrderStatistic.h; sourceTree = "<group>"; };
-		89D9E9661B86D4060024B25A /* OrderStatistic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderStatistic.m; path = Sequence/OrderStatistic.m; sourceTree = "<group>"; };
 		89D9E96A1B86D4220024B25A /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCD.h; path = Number/GCD.h; sourceTree = "<group>"; };
 		89D9E96B1B86D4220024B25A /* GCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCD.m; path = Number/GCD.m; sourceTree = "<group>"; };
 		89D9E96C1B86D4220024B25A /* Prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prime.h; path = Number/Prime.h; sourceTree = "<group>"; };
@@ -62,9 +63,12 @@
 		89D9E97B1B86D4610024B25A /* NSMutableArray+Init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Init.m"; path = "Category/NSMutableArray+Init.m"; sourceTree = "<group>"; };
 		89D9E97F1B86D4750024B25A /* Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sort.h; path = Sort/Sort.h; sourceTree = "<group>"; };
 		89D9E9801B86D4750024B25A /* Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sort.m; path = Sort/Sort.m; sourceTree = "<group>"; };
-		89D9E9821B87197F0024B25A /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		89D9E9831B871DFA0024B25A /* BinarySearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinarySearchTree.h; path = Tree/BinarySearchTree.h; sourceTree = "<group>"; };
 		89D9E9841B871DFA0024B25A /* BinarySearchTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearchTree.m; path = Tree/BinarySearchTree.m; sourceTree = "<group>"; };
+		89DE7B641B8ABFB200799D3F /* BinaryHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryHeap.h; path = Heap/BinaryHeap.h; sourceTree = "<group>"; };
+		89DE7B651B8ABFB200799D3F /* BinaryHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryHeap.m; path = Heap/BinaryHeap.m; sourceTree = "<group>"; };
+		89DE7B671B8ABFEF00799D3F /* Heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Heap.h; path = Heap/Heap.h; sourceTree = "<group>"; };
+		89DE7B681B8AC00100799D3F /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tree.h; path = Tree/Tree.h; sourceTree = "<group>"; };
 		89FC4CA11B7CE24D0096337B /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Help.h; path = Helper/Help.h; sourceTree = "<group>"; };
 		89FC4CA21B7CE24D0096337B /* Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Help.m; path = Helper/Help.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +87,9 @@
 		890659AB1B7CDBED00AC8059 = {
 			isa = PBXGroup;
 			children = (
-				89A283131B85C26C00ADFDF8 /* Sequence */,
+				89404C3D1B93E78F00294475 /* Hash */,
+				89DE7B621B8AAD3100799D3F /* Heap */,
+				89A283131B85C26C00ADFDF8 /* LinearList */,
 				89A2830D1B82D58E00ADFDF8 /* Number */,
 				89A283121B85C23E00ADFDF8 /* Tree */,
 				89A2830A1B82D57500ADFDF8 /* Search */,
@@ -135,6 +141,13 @@
 			name = Algorithm;
 			sourceTree = "<group>";
 		};
+		89404C3D1B93E78F00294475 /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Hash;
+			sourceTree = "<group>";
+		};
 		89A2830A1B82D57500ADFDF8 /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,24 +185,24 @@
 		89A283121B85C23E00ADFDF8 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
-				89D9E9821B87197F0024B25A /* Tree.h */,
+				89DE7B681B8AC00100799D3F /* Tree.h */,
 				89D9E9831B871DFA0024B25A /* BinarySearchTree.h */,
 				89D9E9841B871DFA0024B25A /* BinarySearchTree.m */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
 		};
-		89A283131B85C26C00ADFDF8 /* Sequence */ = {
+		89A283131B85C26C00ADFDF8 /* LinearList */ = {
 			isa = PBXGroup;
 			children = (
-				89D9E9611B86D4060024B25A /* MaxSubSequenceSum.h */,
-				89D9E9621B86D4060024B25A /* MaxSubSequenceSum.m */,
-				89D9E9631B86D4060024B25A /* MinDistance.h */,
-				89D9E9641B86D4060024B25A /* MinDistance.m */,
-				89D9E9651B86D4060024B25A /* OrderStatistic.h */,
-				89D9E9661B86D4060024B25A /* OrderStatistic.m */,
+				89404C3E1B93EA7800294475 /* MaxSubSequenceSum.h */,
+				89404C3F1B93EA7800294475 /* MaxSubSequenceSum.m */,
+				89404C401B93EA7800294475 /* MinDistance.h */,
+				89404C411B93EA7800294475 /* MinDistance.m */,
+				89404C421B93EA7800294475 /* OrderStatistic.h */,
+				89404C431B93EA7800294475 /* OrderStatistic.m */,
 			);
-			name = Sequence;
+			name = LinearList;
 			sourceTree = "<group>";
 		};
 		89B8D3851B81FD3A00226A18 /* Sort */ = {
@@ -199,6 +212,16 @@
 				89D9E9801B86D4750024B25A /* Sort.m */,
 			);
 			name = Sort;
+			sourceTree = "<group>";
+		};
+		89DE7B621B8AAD3100799D3F /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				89DE7B671B8ABFEF00799D3F /* Heap.h */,
+				89DE7B641B8ABFB200799D3F /* BinaryHeap.h */,
+				89DE7B651B8ABFB200799D3F /* BinaryHeap.m */,
+			);
+			name = Heap;
 			sourceTree = "<group>";
 		};
 		89FC4CA81B7CE4450096337B /* Category */ = {
@@ -272,18 +295,19 @@
 			files = (
 				89D9E9811B86D4750024B25A /* Sort.m in Sources */,
 				89D9E9701B86D4220024B25A /* GCD.m in Sources */,
+				89404C441B93EA7800294475 /* MaxSubSequenceSum.m in Sources */,
 				89D9E97D1B86D4610024B25A /* NSArray+Print.m in Sources */,
 				89D9E95F1B86D23E0024B25A /* main.m in Sources */,
-				89D9E9671B86D4060024B25A /* MaxSubSequenceSum.m in Sources */,
-				89D9E9691B86D4060024B25A /* OrderStatistic.m in Sources */,
 				89D9E9851B871DFA0024B25A /* BinarySearchTree.m in Sources */,
 				89D9E97E1B86D4610024B25A /* NSMutableArray+Init.m in Sources */,
+				89404C461B93EA7800294475 /* OrderStatistic.m in Sources */,
 				89D9E9721B86D4220024B25A /* Sqrt.m in Sources */,
 				89FC4CA31B7CE24D0096337B /* Help.m in Sources */,
 				89D9E97C1B86D4610024B25A /* NSArray+Init.m in Sources */,
 				89D9E9751B86D43A0024B25A /* DoorWithLock.m in Sources */,
+				89404C451B93EA7800294475 /* MinDistance.m in Sources */,
 				89D9E9711B86D4220024B25A /* Prime.m in Sources */,
-				89D9E9681B86D4060024B25A /* MinDistance.m in Sources */,
+				89DE7B661B8ABFB200799D3F /* BinaryHeap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
