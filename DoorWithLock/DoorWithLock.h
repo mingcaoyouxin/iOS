@@ -10,5 +10,5 @@
 
 @interface DoorWithLock : NSObject
 //带锁的门
-+(NSArray *)doorsWithLockWithDoorNumber:(NSInteger) doorNumber;
++(NSArray *)doorsWithLockWithDoorNumber:(int) doorNumber;
 @end

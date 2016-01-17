@@ -13,8 +13,8 @@ typedef struct HeapStruct *Heap;
 @interface BinaryHeap : NSObject
 
 //保持堆的性质
--(void)maxHeapify:(Heap) heap inPosition:(NSInteger) i;
+-(void)maxHeapify:(Heap) heap inPosition:(int) i;
 
 //建堆
--(Heap)buildMaxHeap:(NSInteger [])A withSize:(NSInteger)size;
+-(Heap)buildMaxHeap:(int [])A withSize:(int)size;
 @end

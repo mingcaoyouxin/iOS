@@ -10,5 +10,5 @@
 
 @interface NSArray (Init)
 
--(NSArray *)initWithCapacity:(NSInteger)capacity withInitNumber:(NSInteger)initNumber isSequent:(BOOL)isSequent;
+- (NSArray *)initWithCapacity:(NSInteger)capacity withInitNumber:(NSInteger)initNumber isSequent:(BOOL)isSequent;
 @end

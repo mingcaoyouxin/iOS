@@ -11,11 +11,11 @@
 @interface Help : NSObject
 
 //判断一个数是否是完全平方数
-+(BOOL)isPerfectSqure:(NSInteger) number;
++(BOOL)isPerfectSqure:(int) number;
 //求数组元素的长度
-+(NSInteger)lengthOfArray:(NSInteger *)array;
++(int)lengthOfArray:(int *)array;
 //求三个数的最大值
-+(NSInteger) maxOfFirst:(NSInteger)A second:(NSInteger)B third:(NSInteger)C;
++(int) maxOfFirst:(int)A second:(int)B third:(int)C;
 //求三个数的最小值
-+(NSInteger) minOfFirst:(NSInteger)A second:(NSInteger)B third:(NSInteger)C;
++(int) minOfFirst:(int)A second:(int)B third:(int)C;
 @end

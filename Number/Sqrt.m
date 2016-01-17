@@ -14,7 +14,7 @@
 //求一个数的平方根可以通过下列公式逼近
 //利用牛顿迭代法，x(k+1) = x(k) - f(x(k)) / f'(x(k))
 //因此对于求平方根，牛顿迭代式为：x(k+1) = x(k) - (x(k)^2 - n) / 2x(k) = (x(k) + n / x (k)) / 2
-+(double)howSqrt:(double)number withPrintBit:(NSInteger) bit
++(double)howSqrt:(double)number withPrintBit:(int) bit
 {
     if( number < 0 )
     {
@@ -36,7 +36,7 @@
 
 
 //二分查找法计算一个数的平方根 下取整
-+(NSInteger)ceilSqrtOfNumber:(double)number
++(int)ceilSqrtOfNumber:(double)number
 {
     int left = 0, right = (number + 1) / 2 ;//这里不用right不用从number开始，因为（n+1)/2 >= n^0.5
     while (left <=  right) {
@@ -47,9 +47,8 @@
         }else if(mid * mid >  number){
             right = (int)mid -1;
         }else{
-            return mid;
+            return (int)mid;
         }
-            
     }
     return right;
 }

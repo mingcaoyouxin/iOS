@@ -12,6 +12,6 @@
 @interface GCD : NSObject
 
 //欧几里得算法计算最大公约数
--(NSInteger)euclidWithFirstNumber:(NSInteger)first SecondNumber:(NSInteger)second;
+-(int)euclidWithFirstNumber:(int)first SecondNumber:(int)second;
 
 @end

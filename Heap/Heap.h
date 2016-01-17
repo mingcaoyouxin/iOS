@@ -5,7 +5,7 @@
 //  Created by 浩 董 on 15/8/24.
 //  Copyright (c) 2015年 com.tencent. All rights reserved.
 //
-typedef NSInteger ElementType;
+typedef int ElementType;
 #define PARENT(i) ((i) >> 1)
 #define LEFT(i) ((i) << 1)
 #define RIGNT(i) (((i) << 1) + 1)

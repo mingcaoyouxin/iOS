@@ -10,5 +10,5 @@
 
 @interface MaxSubSequenceSum : NSObject
 //求最大连续子序列和
--(NSInteger)maxSubsequenceSum:(const NSInteger[])A withLength:(NSInteger) N;
+-(int)maxSubsequenceSum:(const int[])A withLength:(int) N;
 @end

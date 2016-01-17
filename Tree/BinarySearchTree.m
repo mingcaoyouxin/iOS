@@ -7,6 +7,7 @@
 //
 
 #import "BinarySearchTree.h"
+#import "Stack.h"
 
 @implementation BinarySearchTree
 
@@ -210,7 +211,7 @@
 {
     if (tree != NULL) {
         [self printTree:tree->left];
-        printf("%ld  ",tree->element);
+        printf("%d  ",tree->element);
         [self printTree:tree->right];
     }
 }
@@ -236,5 +237,12 @@
     return y;
 }
 
-
+-(int)findMinDepth:(SearchTree)tree
+{
+    if (tree == NULL) {
+        return 0;
+    }
+    Stack *stk = [[Stack alloc]init];
+    return  0;
+}
 @end

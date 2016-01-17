@@ -21,10 +21,10 @@
     如果一个数是前面某个数的倍数，那么这个数的倍数就不用排除了，如4是2的倍数，那么4的倍数就不用排除了
  */
 
--(NSArray *)sequentPrimeNumberInNumber:(NSInteger)num
+-(NSArray *)sequentPrimeNumberInNumber:(int)num
 {
     NSMutableArray *array = [[NSMutableArray alloc] init];
-    for (NSInteger i = 0; i <= num; i++) {
+    for (int i = 0; i <= num; i++) {
         [array addObject:[NSNumber numberWithInteger:1]];
     }
     for (int i = 2; i <= sqrt(num); i++) {

@@ -18,14 +18,14 @@
  *下标为largest的结点在交换后的值是A[i],以该结点为根的子树又有可能违反最大堆性质，则要对该子树递归调用maxHeapify
  */
 //保持堆的性质，复杂度O(lgn)
--(void)maxHeapify:(Heap)heap inPosition:(NSInteger)i
+-(void)maxHeapify:(Heap)heap inPosition:(int)i
 {
     if (heap == NULL || i <= 0) {
         return;
     }
-    NSInteger l = LEFT(i);
-    NSInteger r =  RIGNT(i);
-    NSInteger largest;
+    int l = LEFT(i);
+    int r =  RIGNT(i);
+    int largest;
     //找出结点i以及它的两个子节点三者中的最大值，赋给largest
     if (l <= heap->size && heap->elements[l] > heap->elements[i]) {
         largest = l;
@@ -47,7 +47,7 @@
 }
 
 //构建最大堆
--(Heap)buildMaxHeap:(NSInteger [])A withSize:(NSInteger)size
+-(Heap)buildMaxHeap:(int [])A withSize:(int)size
 {
     struct HeapStruct *heap = malloc(sizeof(struct HeapStruct));
     if (heap == NULL) {
@@ -58,10 +58,9 @@
     heap->elements = A;
     //因为A[n/2+1]...A[n]均是叶子节点，所以从n/2开始，而且必须倒着
     //因为maxHeapify必须保证他的左右孩子均是最大堆
-    for (NSInteger i = size / 2; i >= 1; i--) {
+    for (int i = size / 2; i >= 1; i--) {
         [self maxHeapify:heap inPosition:i];
     }
     return heap;
 }
-
 @end

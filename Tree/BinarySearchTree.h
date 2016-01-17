@@ -38,5 +38,8 @@ typedef struct TreeNode *Position;
 //查找中序遍历中元素的后继
 -(Position)successorOfElement:(ElementType)element inTree:(SearchTree)tree;
 
+//查找树的最小深度
+- (int) findMinDepth:(SearchTree)tree;
+
 
 @end

@@ -15,15 +15,15 @@
 
 
 //求n个数字的中值（即其中第n/2（上取整）个最小的元素）
--(NSInteger)middleNumberOfSequence:(NSInteger *)array withBegin:(NSInteger)p withEnd:(NSInteger)r;
+-(int)middleNumberOfSequence:(int *)array withBegin:(int)p withEnd:(int)r;
 
 //求n个数字的第k小的元素
--(NSInteger)theKthNumberOfSequence:(NSInteger *)array withBegin:(NSInteger)p withEnd:(NSInteger)r withKth:(NSInteger)k;
+-(int)theKthNumberOfSequence:(int *)array withBegin:(int)p withEnd:(int)r withKth:(int)k;
 
 //序列中的最小值
--(NSInteger)minNumberOfSequence:(NSInteger *)array withBegin:(NSInteger)p withEnd:(NSInteger)r;
+-(int)minNumberOfSequence:(int *)array withBegin:(int)p withEnd:(int)r;
 
 //同时获得序列中的最小和最大值
--(NSInteger *)minAndMaxOfSequence:(NSInteger *)array withBegin:(NSInteger)p withEnd:(NSInteger)r;
+-(int *)minAndMaxOfSequence:(int *)array withBegin:(int)p withEnd:(int)r;
 
 @end

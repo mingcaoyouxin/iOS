@@ -25,24 +25,24 @@
  *如果一个数是非完全平方数，那么这个数将会有偶数个因子，因此门会改变偶数次，因为初始是关着的，最后改门则是关着的
  */
 
-+(NSArray *)doorsWithLockWithDoorNumber:(NSInteger) doorNumber
++(NSArray *)doorsWithLockWithDoorNumber:(int) doorNumber
 {
     if (doorNumber <= 0) {
         return NULL;
     }
     NSMutableArray *array = [[NSMutableArray alloc] init];
-    for (NSInteger i = 0; i <= doorNumber; i++) {
+    for (int i = 0; i <= doorNumber; i++) {
         [array addObject:[NSNumber numberWithInteger:0]];
     }
     
-//    for(NSInteger i = 1; i <= doorNumber; i++){
+//    for(int i = 1; i <= doorNumber; i++){
 //        if ([Help isPerfectSqure:i]) {
 //            array[i] = [NSNumber numberWithInteger:1];
 //        }else{
 //            array[i] = [NSNumber numberWithInteger:0];
 //        }
 //    }
-    for (NSInteger i = 1; i * i <= doorNumber; i++) {
+    for (int i = 1; i * i <= doorNumber; i++) {
         array [i * i] = [NSNumber numberWithInteger:1];
     }
     return array;

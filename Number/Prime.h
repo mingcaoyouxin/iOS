@@ -14,6 +14,6 @@
 
 
 //埃拉托色尼算法：生成不大于num的连续质数序列
--(NSArray*) sequentPrimeNumberInNumber:(NSInteger) num;
+-(NSArray*) sequentPrimeNumberInNumber:(int) num;
 
 @end

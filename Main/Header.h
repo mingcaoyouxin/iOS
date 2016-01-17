@@ -16,6 +16,7 @@
 #import "BinarySearchTree.h"
 #import "Heap.h"
 #import "BinaryHeap.h"
+#import "Array.h"
 #ifndef Algorithm_Header_h
 #define Algorithm_Header_h
 

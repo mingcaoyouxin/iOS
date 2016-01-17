@@ -11,13 +11,13 @@
 
 @implementation GCD
 
--(NSInteger)euclidWithFirstNumber:(NSInteger)first SecondNumber:(NSInteger)second
+-(int)euclidWithFirstNumber:(int)first SecondNumber:(int)second
 {
     if (first == 0 || second == 0) {
         return 0;
     }
-    NSInteger minNum = MIN(first, second);
-    NSInteger maxNum = MAX(first, second);
+    int minNum = MIN(first, second);
+    int maxNum = MAX(first, second);
     while (maxNum % minNum != 0) {
         minNum = maxNum % minNum;
         maxNum = minNum;

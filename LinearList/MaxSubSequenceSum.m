@@ -17,9 +17,9 @@
 
 #ifdef MaxSubSequenceSum_CubicAlgorithm
 
--(NSInteger)maxSubsequenceSum:(const NSInteger[])A withLength:(NSInteger) N
+-(int)maxSubsequenceSum:(const int[])A withLength:(int) N
 {
-    NSInteger thisSum, maxSum, i, j, k;
+    int thisSum, maxSum, i, j, k;
     maxSum = 0;
     for(i = 0; i < N; i++)
         for(j = i; j < N; j++)
@@ -39,9 +39,9 @@
 
 #ifdef MaxSubSequenceSum_QuadraticAlgorithm
 
--(NSInteger)maxSubsequenceSum:(const NSInteger[])A withLength:(NSInteger) N
+-(int)maxSubsequenceSum:(const int[])A withLength:(int) N
 {
-    NSInteger thisSum, maxSum, i, j;
+    int thisSum, maxSum, i, j;
     maxSum = 0;
     for(i = 0; i < N; i++)
     {
@@ -65,12 +65,12 @@
  *分治法的思想
  */
 
--(NSInteger) maxSubSumOfArray:(const NSInteger[]) A left:(NSInteger) Left right:(NSInteger) Right
+-(int) maxSubSumOfArray:(const int[]) A left:(int) Left right:(int) Right
 {
-    NSInteger maxLeftSum, maxRightSum;
-    NSInteger maxLeftBorderSum, maxRightBorderSum;
-    NSInteger LeftBorderSum, RightBorderSum;
-    NSInteger Center, i;
+    int maxLeftSum, maxRightSum;
+    int maxLeftBorderSum, maxRightBorderSum;
+    int LeftBorderSum, RightBorderSum;
+    int Center, i;
     
     if(Left == Right){
 //        if(A[Left] > 0)
@@ -103,7 +103,7 @@
     return [Help maxOfFirst:maxLeftSum second:maxRightSum third:maxLeftBorderSum + maxRightBorderSum];
 }
 
--(NSInteger)maxSubsequenceSum:(const NSInteger[])A withLength:(NSInteger) N
+-(int)maxSubsequenceSum:(const int[])A withLength:(int) N
 {
     return [self maxSubSumOfArray:A left:0 right:N-1];
 }
@@ -113,9 +113,9 @@
 
 #ifdef MaxSubSequenceSum_LinearAlgorithm
 
--(NSInteger)maxSubsequenceSum:(const NSInteger[])A withLength:(NSInteger) N
+-(int)maxSubsequenceSum:(const int[])A withLength:(int) N
 {
-    NSInteger thisSum, maxSum, j;
+    int thisSum, maxSum, j;
     maxSum = MININT32;
     thisSum = 0;
     for(j = 0; j < N; j++)

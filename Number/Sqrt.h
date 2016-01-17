@@ -11,9 +11,9 @@
 @interface Sqrt : NSObject
 
 //求一个数的平方根，保留小数bit位
-+(double)howSqrt:(double)number withPrintBit:(NSInteger) bit;
++(double)howSqrt:(double)number withPrintBit:(int) bit;
 
 //求一个数的平方根，下取整
-+(NSInteger)ceilSqrtOfNumber:(double)number;
++(int)ceilSqrtOfNumber:(double)number;
 
 @end

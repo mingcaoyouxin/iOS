@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8936C8A11B9B115A009D4A35 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 8936C8A01B9B115A009D4A35 /* Test.m */; };
 		89404C441B93EA7800294475 /* MaxSubSequenceSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 89404C3F1B93EA7800294475 /* MaxSubSequenceSum.m */; };
 		89404C451B93EA7800294475 /* MinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 89404C411B93EA7800294475 /* MinDistance.m */; };
 		89404C461B93EA7800294475 /* OrderStatistic.m in Sources */ = {isa = PBXBuildFile; fileRef = 89404C431B93EA7800294475 /* OrderStatistic.m */; };
+		89404C4C1B93EDE800294475 /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 89404C4B1B93EDE800294475 /* Array.m */; };
+		89404C501B94553D00294475 /* HashTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 89404C4F1B94553D00294475 /* HashTable.m */; };
+		89781B031BB00DF6006F39F2 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 89781B021BB00DF6006F39F2 /* Stack.m */; };
 		89D9E95F1B86D23E0024B25A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E95E1B86D23E0024B25A /* main.m */; };
 		89D9E9701B86D4220024B25A /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E96B1B86D4220024B25A /* GCD.m */; };
 		89D9E9711B86D4220024B25A /* Prime.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9E96D1B86D4220024B25A /* Prime.m */; };
@@ -38,12 +42,21 @@
 
 /* Begin PBXFileReference section */
 		890659B41B7CDBED00AC8059 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		8936C89F1B9B115A009D4A35 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		8936C8A01B9B115A009D4A35 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		89404C3E1B93EA7800294475 /* MaxSubSequenceSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaxSubSequenceSum.h; path = LinearList/MaxSubSequenceSum.h; sourceTree = "<group>"; };
 		89404C3F1B93EA7800294475 /* MaxSubSequenceSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaxSubSequenceSum.m; path = LinearList/MaxSubSequenceSum.m; sourceTree = "<group>"; };
 		89404C401B93EA7800294475 /* MinDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinDistance.h; path = LinearList/MinDistance.h; sourceTree = "<group>"; };
 		89404C411B93EA7800294475 /* MinDistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MinDistance.m; path = LinearList/MinDistance.m; sourceTree = "<group>"; };
 		89404C421B93EA7800294475 /* OrderStatistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderStatistic.h; path = LinearList/OrderStatistic.h; sourceTree = "<group>"; };
 		89404C431B93EA7800294475 /* OrderStatistic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderStatistic.m; path = LinearList/OrderStatistic.m; sourceTree = "<group>"; };
+		89404C4A1B93EDE800294475 /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Array.h; path = LinearList/Array.h; sourceTree = "<group>"; };
+		89404C4B1B93EDE800294475 /* Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Array.m; path = LinearList/Array.m; sourceTree = "<group>"; };
+		89404C4E1B94553D00294475 /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HashTable.h; path = Hash/HashTable.h; sourceTree = "<group>"; };
+		89404C4F1B94553D00294475 /* HashTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HashTable.m; path = Hash/HashTable.m; sourceTree = "<group>"; };
+		89404C511B94556A00294475 /* Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hash.h; path = Hash/Hash.h; sourceTree = "<group>"; };
+		89781B011BB00DF6006F39F2 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Stack/Stack.h; sourceTree = "<group>"; };
+		89781B021BB00DF6006F39F2 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stack.m; path = Stack/Stack.m; sourceTree = "<group>"; };
 		89D9E95D1B86D1CC0024B25A /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Helper.h; path = Helper/Helper.h; sourceTree = "<group>"; };
 		89D9E95E1B86D23E0024B25A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Main/main.m; sourceTree = SOURCE_ROOT; };
 		89D9E9601B86D2490024B25A /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = Main/Header.h; sourceTree = SOURCE_ROOT; };
@@ -87,6 +100,7 @@
 		890659AB1B7CDBED00AC8059 = {
 			isa = PBXGroup;
 			children = (
+				89781B001BB00DC5006F39F2 /* Stack */,
 				89404C3D1B93E78F00294475 /* Hash */,
 				89DE7B621B8AAD3100799D3F /* Heap */,
 				89A283131B85C26C00ADFDF8 /* LinearList */,
@@ -137,6 +151,8 @@
 			children = (
 				89D9E9731B86D43A0024B25A /* DoorWithLock.h */,
 				89D9E9741B86D43A0024B25A /* DoorWithLock.m */,
+				8936C89F1B9B115A009D4A35 /* Test.h */,
+				8936C8A01B9B115A009D4A35 /* Test.m */,
 			);
 			name = Algorithm;
 			sourceTree = "<group>";
@@ -144,8 +160,20 @@
 		89404C3D1B93E78F00294475 /* Hash */ = {
 			isa = PBXGroup;
 			children = (
+				89404C511B94556A00294475 /* Hash.h */,
+				89404C4E1B94553D00294475 /* HashTable.h */,
+				89404C4F1B94553D00294475 /* HashTable.m */,
 			);
 			name = Hash;
+			sourceTree = "<group>";
+		};
+		89781B001BB00DC5006F39F2 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				89781B011BB00DF6006F39F2 /* Stack.h */,
+				89781B021BB00DF6006F39F2 /* Stack.m */,
+			);
+			name = Stack;
 			sourceTree = "<group>";
 		};
 		89A2830A1B82D57500ADFDF8 /* Search */ = {
@@ -195,6 +223,8 @@
 		89A283131B85C26C00ADFDF8 /* LinearList */ = {
 			isa = PBXGroup;
 			children = (
+				89404C4A1B93EDE800294475 /* Array.h */,
+				89404C4B1B93EDE800294475 /* Array.m */,
 				89404C3E1B93EA7800294475 /* MaxSubSequenceSum.h */,
 				89404C3F1B93EA7800294475 /* MaxSubSequenceSum.m */,
 				89404C401B93EA7800294475 /* MinDistance.h */,
@@ -294,11 +324,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				89D9E9811B86D4750024B25A /* Sort.m in Sources */,
+				89404C4C1B93EDE800294475 /* Array.m in Sources */,
 				89D9E9701B86D4220024B25A /* GCD.m in Sources */,
+				8936C8A11B9B115A009D4A35 /* Test.m in Sources */,
 				89404C441B93EA7800294475 /* MaxSubSequenceSum.m in Sources */,
 				89D9E97D1B86D4610024B25A /* NSArray+Print.m in Sources */,
 				89D9E95F1B86D23E0024B25A /* main.m in Sources */,
+				89404C501B94553D00294475 /* HashTable.m in Sources */,
 				89D9E9851B871DFA0024B25A /* BinarySearchTree.m in Sources */,
+				89781B031BB00DF6006F39F2 /* Stack.m in Sources */,
 				89D9E97E1B86D4610024B25A /* NSMutableArray+Init.m in Sources */,
 				89404C461B93EA7800294475 /* OrderStatistic.m in Sources */,
 				89D9E9721B86D4220024B25A /* Sqrt.m in Sources */,

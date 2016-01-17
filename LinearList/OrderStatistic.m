@@ -14,13 +14,13 @@
 
 @implementation OrderStatistic
 
--(NSInteger)middleNumberOfSequence:(NSInteger *)array withBegin:(NSInteger)p withEnd:(NSInteger)r
+-(int)middleNumberOfSequence:(int *)array withBegin:(int)p withEnd:(int)r
 {
     if(p == r)
         return array[p];
     if(array == NULL)
         return -1;
-    NSInteger middle,count = r - p + 1;
+    int middle,count = r - p + 1;
     
     //如果有偶数个元素
     if ((r - p + 1) % 2 == 0) {
@@ -31,7 +31,7 @@
     return [self theKthNumberOfSequence:array withBegin:p withEnd:r withKth:middle];
 }
 
--(NSInteger)theKthNumberOfSequence:(NSInteger *)array withBegin:(NSInteger)p withEnd:(NSInteger)r withKth:(NSInteger)k
+-(int)theKthNumberOfSequence:(int *)array withBegin:(int)p withEnd:(int)r withKth:(int)k
 {
     if(array == NULL)
         return -1;
@@ -39,8 +39,8 @@
         return array[p];
     }
     Sort *sort = [[Sort alloc] init];
-    NSInteger q = [sort randomizedPartitionOfArray:array withBegin:p withEnd:r];//首先根据分解法确定一个位置q，其前面的数比他小，后面的数比他大，则array[q]便是第q-p+1小（没有第0小）
-    NSInteger i = q - p + 1;
+    int q = [sort randomizedPartitionOfArray:array withBegin:p withEnd:r];//首先根据分解法确定一个位置q，其前面的数比他小，后面的数比他大，则array[q]便是第q-p+1小（没有第0小）
+    int i = q - p + 1;
     if (i == k) {
         return array[q];
     }
@@ -52,13 +52,13 @@
     }    
 }
 
--(NSInteger)minNumberOfSequence:(NSInteger *)array withBegin:(NSInteger)p withEnd:(NSInteger)r
+-(int)minNumberOfSequence:(int *)array withBegin:(int)p withEnd:(int)r
 {
-    NSInteger length = r - p + 1;
+    int length = r - p + 1;
     if(array == NULL || length <= 0)
         return -1;
-    NSInteger min = array[0];
-    for (NSInteger i = p ; i <= r; i++) {
+    int min = array[0];
+    for (int i = p ; i <= r; i++) {
         if (array[i] < min) {
             min = array[i];
         }
@@ -76,27 +76,27 @@
  *对于初始情况，如果是奇数个元素，初始化min和max都为第0个元素，剩下的便可以两两成对
  *如果是偶数个元素，则把第0个与第1个元素的最小值和最大值分别赋给min与max
  */
--(NSInteger *)minAndMaxOfSequence:(NSInteger *) array withBegin:(NSInteger)p withEnd:(NSInteger)r
+-(int *)minAndMaxOfSequence:(int *) array withBegin:(int)p withEnd:(int)r
 {
     if(array == NULL)
         return NULL;
-    NSInteger min, max, temp,length = r - p + 1;
+    int min, max, temp,length = r - p + 1;
     //如果序列长度为偶数
     if(length % 2 == 0){
-        NSInteger first = array[p];
-        NSInteger second = array[p+1];
+        int first = array[p];
+        int second = array[p+1];
         min = MIN(first, second);
         max = MAX(first, second);
         temp = p + 2;//下一次比较从元素2开始比较
     }else{
-        NSInteger first = array[p];
+        int first = array[p];
         min = first;
         max = min;
         temp = p + 1;//下一次比较从元素1开始比较
     }
-    for (NSInteger i = temp; i <= r; i += 2) {
-        NSInteger first = array[i];
-        NSInteger second = array[i+1];
+    for (int i = temp; i <= r; i += 2) {
+        int first = array[i];
+        int second = array[i+1];
         if (min > MIN(first, second) ) {
             min = MIN(first, second);
         }
@@ -104,10 +104,10 @@
             max = MAX(first, second);
         }
     }
-    NSInteger result[2];
+    int result[2];
     result[0] = min;
     result[1] = max;
-    NSInteger *resultPointer = result;
+    int *resultPointer = result;
     return resultPointer;
 }
 
